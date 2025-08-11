@@ -21,7 +21,7 @@ const Appointment = async ({ params: { userId } }: SearchParamProps) => {
           <AppointmentForm
             patientId={patient?.$id}
             userId={userId}
-            type="create"
+            type="criar"
           />
 
           <p className="copyright mt-10 py-12">© 2025 Flugo Care</p>
